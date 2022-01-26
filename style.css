@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+:root{
+    --font: 'Roboto', sans-serif;
+}
+
+body{
+    font-family: 'Roboto';
+    background-color: rgb(58, 179, 138);
+}
+
+main{
+    background-color: white;
+    margin: 15px auto;
+    max-width: 700px;
+    padding: 1rem;
+}
+
+h2::before{
+    content: '\25FE     ';
+}
+
+p{
+    margin: 8px;
+    padding: 10px;
+}
+li{
+    margin: 5px;
+}
