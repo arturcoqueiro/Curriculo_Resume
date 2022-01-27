@@ -6,7 +6,8 @@
 
 body{
     font-family: 'Roboto';
-    background-color: rgb(58, 179, 138);
+    background-color: rgb(31, 121, 91);
+    background: linear-gradient(rgb(31, 121, 91), aqua, to bottom);
 }
 
 main{
@@ -26,4 +27,7 @@ p{
 }
 li{
     margin: 5px;
+}
+a{
+    text-decoration: none;
 }
