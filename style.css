@@ -6,8 +6,7 @@
 
 body{
     font-family: 'Roboto';
-    background-color: rgb(31, 121, 91);
-    background: linear-gradient(rgb(31, 121, 91), aqua, to bottom);
+    background: linear-gradient(to bottom, rgb(31, 121, 91), aqua);
 }
 
 main{
@@ -29,5 +28,14 @@ li{
     margin: 5px;
 }
 a{
-    text-decoration: none;
+    text-decoration:1px rgb(31, 121, 91) underline;
+    font-weight: 700;
+    color: black;
+}
+a:hover{
+    color: aqua;
+    background-color: rgba(0, 0, 0, 0.623);
+    transition:0.4s;
+    padding: 3.5px;
+    border-radius: 5px;
 }
