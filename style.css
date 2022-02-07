@@ -7,7 +7,6 @@
 body{
     font-family: 'Roboto';
     background: linear-gradient(to bottom, rgb(31, 121, 91), aqua);
-    height: 96.5vh;
 }
 .tit::before{
     content: none;
