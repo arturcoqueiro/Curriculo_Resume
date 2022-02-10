@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Roboto';
-    background: linear-gradient(to bottom, rgb(31, 121, 91), aqua);
+    
 }
 .tit::before{
     content: none;
@@ -14,10 +14,8 @@ body{
 main{
     background-color: white;
     margin: 15px auto;
-    max-width: 675px;
+    max-width: 750px;
     padding: 1rem;
-    border-radius: 3px;
-    border: 1px solid black;
 }
 
 h2::before{
